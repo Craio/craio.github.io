@@ -1,7 +1,9 @@
 html {
-    color: #777777;
+    /*color: #777777;*/
+    color: #c5c8c6;
     font-family: 'Space Mono', monospace;
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
+    background-color: #1d1f21;
 }
 body {
     margin: auto;
@@ -14,7 +16,8 @@ a {
 a.link {
     font-size: 12px;
     line-height: 55px;
-    background-color: #eee;
+    /*background-color: #eee;*/
+    background-color: #292c2f;
     transition: ease-in-out 0.15s;
     padding: 10px;
     padding-left: 15px;
@@ -24,8 +27,10 @@ a.link {
     margin-bottom: 0px;
 }
 a.link:hover {
-    background-color: #777;
-    color: #fafafa;
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    /*background-color: #777;
+    color: #fafafa;*/
 }
 p.link-cats {
     font-size: 14px;
