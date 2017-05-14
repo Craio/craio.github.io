@@ -1,9 +1,9 @@
 html {
-    background-color: #fafafa;
+    background-color: #1d1f21;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-weight: 200;
-    color: #777777;
+    color: #c5c8c6;
     letter-spacing: -.04em
 }
 body {
@@ -22,8 +22,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     max-height: 150px;
-    font-size: 90px;
-    font-family: 'Space Mono', monospace;
+    font-size: 2rem;
+    font-family: 'Space Mono';
     padding-top: 10%;
     padding-bottom: 30%;
 }
@@ -31,9 +31,18 @@ article,
 {
     display: block
 }
+
 a {
-    background-color: transparent
+    color: #c5c8c6;
+    text-decoration: none;
 }
+
+a:hover
+{
+     text-decoration:none;
+     cursor:pointer;
+}
+
 * {
     box-sizing: border-box;
     position: relative
@@ -73,6 +82,17 @@ article {
         padding-bottom: 0
     }
 }
+
+
+p {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Jaldi', sans-serif;
+  padding-bottom: 5%;
+
+}
+
 #instagram {
     display: -webkit-box;
     display: -webkit-flex;
@@ -149,4 +169,67 @@ article {
 }
 #instagram img {
     width: 100%
+}
+
+.rainbow {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Jaldi', sans-serif;
+  animation:rainbow 15s infinite;
+}
+
+@keyframes rainbow {
+0% {color: #ff0000;}
+2% {color: #FF1D00;}
+4% {color: #FF3B00;}
+6% {color: #FF5800;}
+8% {color: #FF7600;}
+10% {color: #FF9300;}
+12% {color: #FFB100;}
+14% {color: #FFCE00;}
+16% {color: #FFEC00;}
+18% {color: #F4FF00;}
+20% {color: #D6FF00;}
+22% {color: #B9FF00;}
+24% {color: #9BFF00;}
+26% {color: #7EFF00;}
+28% {color: #60FF00;}
+30% {color: #43FF00;}
+32% {color: #25FF00;}
+34% {color: #08FF00;}
+36% {color: #00FF15;}
+38% {color: #00FF32;}
+40% {color: #00FF50;}
+42% {color: #00FF6D;}
+44%{color: :#00FF8B;}
+46% {color: #00FFA8;}
+48% {color: #00FFC6;}
+50% {color: #00FFE3;}
+52% {color: #00FCFF;}
+54% {color: #00DEFF;}
+56% {color: #00C1FF;}
+58% {color: #00A3FF;}
+60% {color: #0086FF;}
+62% {color: #0068FF;}
+64% {color: #004BFF;}
+66% {color: #002DFF;}
+68% {color: #0010FF;}
+70% {color: #0D00FF;}
+72% {color: #2A00FF;}
+74% {color: #4800FF;}
+76% {color: #6500FF;}
+78% {color: #8300FF;}
+80% {color: #A000FF;}
+82% {color: #BE00FF;}
+84% {color: #DB00FF;}
+86% {color: #F900FF;}
+88% {color: #FF00E7;}
+90% {color: #FF00C9;}
+92% {color: #FF00AC;}
+94% {color: #FF008E;}
+96% {color: #FF0071;}
+98% {color: #FF0053;}
+100% {color: #FF0036;}
+
 }
