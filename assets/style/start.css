@@ -1,53 +1,126 @@
-html {
-    /*color: #777777;*/
-    color: #c5c8c6;
-    font-family: 'Space Mono', monospace;
-    /*background-color: #fafafa;*/
-    background-color: #1d1f21;
+@font-face {
+  font-family: Inconsolata;
+  src: url(Inconsolata-Regular.ttf);
 }
-body {
-    margin: auto;
-    width: 75%;
+
+.body {
+  height: 100%;
 }
-a {
-    text-decoration: none;
-    color: inherit;
+
+* {
+  border-radius: 0 !important;
 }
-a.link {
-    font-size: 12px;
-    line-height: 55px;
-    /*background-color: #eee;*/
-    background-color: #292c2f;
-    transition: ease-in-out 0.15s;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 5px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+
+.container {
+  background-color: #1d1f21;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #3b3c3b;
+  width: 952px;
+  padding: 25px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 13px;
 }
-a.link:hover {
-    background-color: #1d1f21;
-    color: #c5c8c6;
-    /*background-color: #777;
-    color: #fafafa;*/
+
+.hero.is-dark {
+  background-color: #1D1F21
 }
-p.link-cats {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 0px;
-    padding: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+
+li a {
+  color: #c5c8c6;
 }
-#body-block {
-    max-width: 40em;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
+
+li a:hover, li a:visited, li a:active {
+  text-decoration: none;
+  transition: .1s;
 }
-#links {
-    padding: 25px;
-    padding-top: 10px;
+
+#social {
+  color: #548dbe;
+}
+
+#social ul li a {
+  color: #c5c8c6;
+}
+
+#social ul li a:hover {
+  color: #548dbe;
+}
+
+#reddit {
+  color: #f0b541;
+}
+
+#reddit ul li a {
+  color: #c5c8c6;
+}
+
+#reddit ul li a:hover {
+  color: #f0b541;
+}
+
+#other {
+  color: #b1bd42;
+}
+
+#other ul li a {
+  color: #c5c8c6;
+}
+
+#other ul li a:hover {
+  color: #b1bd42;
+}
+
+#files {
+  color: #cc4a4a;
+}
+
+#files ul li a {
+  color: #c5c8c6;
+}
+
+#files ul li a:hover {
+  color: #cc4a4a;
+}
+
+#code {
+  color: #62beb2;
+}
+
+#code ul li a {
+  color: #c5c8c6;
+}
+
+#code ul li a:hover {
+  color: #62beb2;
+}
+
+#media {
+  color: #a763bb;
+}
+
+#media ul li a {
+  color: #c5c8c6;
+}
+
+#media ul li a:hover {
+  color: #a763bb;
+}
+
+@media (min-width: 544px) {
+  .container {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    font-size: 16px;
+  }
 }
