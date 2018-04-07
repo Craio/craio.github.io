@@ -36,7 +36,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #social {
-  color: #548dbe;
+  color: #2A7ABE;
 }
 
 #social ul li a {
@@ -44,11 +44,11 @@ li a:hover, li a:visited, li a:active {
 }
 
 #social ul li a:hover {
-  color: #548dbe;
+  color: #2A7ABE;
 }
 
 #reddit {
-  color: #f0b541;
+  color: #F09F41;
 }
 
 #reddit ul li a {
@@ -56,11 +56,11 @@ li a:hover, li a:visited, li a:active {
 }
 
 #reddit ul li a:hover {
-  color: #f0b541;
+  color: #F09F41;
 }
 
 #other {
-  color: #b1bd42;
+  color: #90BD39;
 }
 
 #other ul li a {
@@ -68,7 +68,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #other ul li a:hover {
-  color: #b1bd42;
+  color: #90BD39;
 }
 
 #files {
@@ -84,7 +84,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #code {
-  color: #62beb2;
+  color: #18BEA8;
 }
 
 #code ul li a {
@@ -92,7 +92,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #code ul li a:hover {
-  color: #62beb2;
+  color: #18BEA8;
 }
 
 #media {
