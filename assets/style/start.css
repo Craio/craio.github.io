@@ -2,23 +2,20 @@
   height: 100%;
 }
 
-* {
-  border-radius: 0 !important;
-}
-
 .container {
   background-color: #322825;
   border-style: solid;
-  border-width: 2px 2px 2px 2px;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 15px;
   border-color: #66584f;
   width: 952px;
   padding: 25px;
-  font-family: 'Inconsolata', monospace;
-  font-size: 13px;
+  font-family: 'SF Mono', monospace;
+  font-size: 11px;
 }
 
 .hero.is-dark {
-  background-color: #322825
+  background-color: #322825;
 }
 
 li a {
