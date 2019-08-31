@@ -1,9 +1,9 @@
 html {
-  background-color: #322825;
+  background-color: #0D1215;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-weight: 200;
-  color: #927e71;
+  color: #9FC2C2;
   letter-spacing: -.04em
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 p {
-  color: #927e71;
+  color: #9FC2C2;
   animation: color-cycle 2s infinite;
 }
 

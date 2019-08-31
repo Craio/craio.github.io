@@ -3,11 +3,11 @@
 }
 
 .container {
-  background-color: #322825;
+  background-color: #0D1215;
   border-style: solid;
   border-width: 1px 1px 1px 1px;
   border-radius: 15px;
-  border-color: #66584f;
+  border-color: #9FC2C2;
   width: 952px;
   padding: 25px;
   font-family: 'SF Mono', monospace;
@@ -15,11 +15,11 @@
 }
 
 .hero.is-dark {
-  background-color: #322825;
+  background-color: #0D1215;
 }
 
 li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 li a:hover, li a:visited, li a:active {
@@ -32,7 +32,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #social ul li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 #social ul li a:hover {
@@ -44,7 +44,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #reddit ul li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 #reddit ul li a:hover {
@@ -56,7 +56,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #other ul li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 #other ul li a:hover {
@@ -68,7 +68,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #files ul li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 #files ul li a:hover {
@@ -80,7 +80,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #code ul li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 #code ul li a:hover {
@@ -92,7 +92,7 @@ li a:hover, li a:visited, li a:active {
 }
 
 #media ul li a {
-  color: #927e71;
+  color: #9FC2C2;
 }
 
 #media ul li a:hover {
